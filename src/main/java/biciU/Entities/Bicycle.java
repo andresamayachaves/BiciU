@@ -1,7 +1,7 @@
-package java.biciu.Entities;
+package main.java.biciU.Entities;
 
-import java.biciu.Enums.BikeColor;
-import java.biciu.Enums.BikeType;
+import main.java.biciU.Enums.BikeColor;
+import main.java.biciU.Enums.BikeType;
 
 public class Bicycle {
     // Attributes

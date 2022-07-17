@@ -1,7 +1,6 @@
-package java.biciu.Utils;
+package main.java.biciU.Utils;
 
 
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Optional;
 import java.util.Scanner;
@@ -34,13 +33,14 @@ public class ConsoleMenu {
         return answer.get();
     }
 
+    /*
     public static LocalDate renderAndVerifyDate(String question) {
         String stringifiedDate = renderAndVerify(
                 DateUtils::isValidDate, // method referencing
                 question
         );
         return LocalDate.parse(stringifiedDate);
-    }
+    }*/
 
     public static String readLineFromConsole() {
         return new Scanner(System.in).nextLine();

@@ -1,10 +1,11 @@
-package java.biciu.Entities;
+package main.java.biciU.Entities;
 
-import java.biciu.Enums.Status;
+import main.java.biciU.Utils.ConsoleMenu;
+import main.java.biciU.Enums.Status;
 
-import java.biciu.Utils.ConsoleMenu;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class Ticket {
     // Attributes
@@ -16,8 +17,8 @@ public class Ticket {
     //private final Hour hourEnd; // TODO manage only hours in format 'HH:MM'
     private static String helmetReturned;
     private static String goodCondition;
-    private final Status ticketStatus;
-    private final User user = new User();
+    private Status ticketStatus;
+    private static User user = new User();
     private final Double amountToPay; //In case of debt
 
     public Ticket(){
@@ -39,21 +40,40 @@ public class Ticket {
         this.helmetReturned = helmetSupplied;
         this.goodCondition = goodCondition;
         this.ticketStatus = ticketStatus;
-        //this.user = userIn;
+        this.user = userIn;
         this.amountToPay = amountToPay;
     }
 
-    public static void setUpdates() {
-        helmetReturned = ConsoleMenu.renderAndVerify(
-                (option) -> List.of("Y", "N").contains(option.toUppercase(Lcale.ROOT)),
-                "did user return the helmet?");
-        goodCondition = ConsoleMenu.renderAndVerify(
-                (option) -> List.of("Y", "N").contains(option.toUppercase(Lcale.ROOT)),
-                "did user return the helmet?");
-        if(helmet== "Y"){
-        }else{
-            User.sumDebt();
+    public void setUpdatesAtReturn() {
+        check("Bike");
+        check("Helmet");
+    }
+
+    private void setStatus(Status st){
+     this.ticketStatus = st;
+    }
+
+    private void check(String element){                         //todo Bike returned out of time
+        if(element=="Helmet") {
+            helmetReturned = ConsoleMenu.renderAndVerify(
+                    (option) -> List.of("Y", "N").contains(option.toUpperCase(Locale.ROOT)),
+                    "did user return the helmet?");
         }
+        if(helmetReturned=="Y"){
+            String goodConditionElement = ConsoleMenu.renderAndVerify(
+                    (option) -> List.of("Y", "N").contains(option.toUpperCase(Locale.ROOT)),
+                    "did user return the "+element+" in good condition?");
+            if(goodConditionElement =="N"){
+                user.sumDebt(5.0);
+                setStatus(Status.PENDING);
+            }
+        }else{
+            user.sumDebt(5.0);
+            setStatus(Status.PENDING);
+        }
+    }
+
+    private  void goodConditionBike(){
 
     }
 
@@ -61,4 +81,8 @@ public class Ticket {
 
         //todo
     };
+
+    public User getUser() {
+        return user;
+    }
 }

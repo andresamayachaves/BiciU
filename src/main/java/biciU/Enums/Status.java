@@ -1,4 +1,4 @@
-package java.biciu.Enums;
+package main.java.biciU.Enums;
 
 public enum Status {
     OK,

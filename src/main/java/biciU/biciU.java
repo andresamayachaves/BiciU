@@ -1,15 +1,14 @@
-package java.biciu;
+package main.java.biciU;
 
+import main.java.biciU.Services.EntitiesServices;
+import main.java.biciU.Services.MainServices;
+import main.java.biciU.Utils.ConsoleMenu;
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.math.NumberUtils;
 
-import java.biciu.Services.MainServices;
-import java.biciu.Services.EntitiesServices;
-import java.biciu.Utils.ConsoleMenu;
-
 
 // Main Class
-public class BiciU{
+public class biciU {
 
     // main method
     public static void main(String[] args) {

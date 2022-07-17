@@ -1,6 +1,6 @@
-package java.biciu.Entities;
+package main.java.biciU.Entities;
 
-import java.biciu.Enums.UserType;
+import main.java.biciU.Enums.UserType;
 
 public class User {
     private UserType userType;
@@ -8,6 +8,8 @@ public class User {
     private String name;
     private int age;
     private double debt;
+    private Ticket UserTickets[] ;
+    private boolean blocked;
 
     public User() {
         this.userType = UserType.S;
@@ -15,14 +17,16 @@ public class User {
         this.name = "";
         this.age = 0;
         this.debt =0;
+        this.blocked = false;
     }
 
-    public User(UserType userType, String ID, String name, int age, double debt) {
+    public User(UserType userType, String ID, String name, int age, double debt, boolean blocked) {
         this.userType = userType;
         this.ID = ID;
         this.name = name;
         this.age = age;
         this.debt = debt;
+        this.blocked = blocked;
     }
 
     public void sumDebt(double addDebt) {
@@ -41,5 +45,13 @@ public class User {
 
     public boolean userHasDebt(){
             return this.debt !=0;
+    }
+
+    public void blockUser(){
+        this.blocked=true;
+    }
+
+    public void unBlockUser(){
+        this.blocked=false;
     }
 }

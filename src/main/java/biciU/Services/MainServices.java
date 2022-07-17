@@ -1,14 +1,14 @@
-package java.biciu.Services;
+package main.java.biciU.Services;
 
+import main.java.biciU.Entities.Bicycle;
+import main.java.biciU.Entities.Ticket;
+import main.java.biciU.Entities.User;
+import main.java.biciU.Enums.BikeType;
+import main.java.biciU.Enums.UserType;
+import main.java.biciU.Utils.ConsoleMenu;
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.math.NumberUtils;
 
-import java.biciu.Entities.Bicycle;
-import java.biciu.Entities.Ticket;
-import java.biciu.Entities.User;
-import java.biciu.Enums.BikeType;
-import java.biciu.Enums.UserType;
-import java.biciu.Utils.ConsoleMenu;
 import java.util.List;
 import java.util.Locale;
 
@@ -32,7 +32,7 @@ public class MainServices {
         System.out.println("Age: ");
         Integer enteredAge = Integer.parseInt(ConsoleMenu.renderAndVerify(
                 (answer) -> NumberUtils.isNumber(answer), "Age: "));
-        User newUser = new User(enteredUserType, generatedID, enteredName, enteredAge, 0);
+        User newUser = new User(enteredUserType, generatedID, enteredName, enteredAge, 0, false);
         //todo save newUser in the DB
         System.out.println("¡Register Completed!\n");
         newUser.printUserInfo();
@@ -58,7 +58,7 @@ public class MainServices {
     public static void borrowBicycle() {
         String  enteredUserId = ConsoleMenu.renderAndVerify(
                 (answer) -> NumberUtils.isNumber(answer),"Enter user ID: ");
-        User userBorrow = Entitieservices.findUserByID(enteredUserId).get();
+        User userBorrow = EntitiesServices.findUserByID(enteredUserId).get();
         if(!userBorrow.userHasDebt()){
                 BikeType enteredType = chooseTypeBike();
                 Bicycle chosenBike = EntitiesServices.getRandomBikeFromStock(enteredType);
@@ -90,7 +90,12 @@ public class MainServices {
     //----------------------------------- returnBicycle()
     public static void returnBicycle() {
         String  enteredTicketID = ConsoleMenu.renderAndRead("Enter ticket ID: ");
-        Ticket.setUpdates();
+        Ticket newTicket = new Ticket();
+        newTicket.setUpdatesAtReturn();
+        if(newTicket.getUser().userHasDebt()){
+            newTicket.getUser().blockUser();
+        }
+
         //todo
     }
 

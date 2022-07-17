@@ -1,10 +1,9 @@
-package java.biciu.Services;
+package main.java.biciU.Services;
 
-import java.biciu.Entities.Bicycle;
-import java.biciu.Entities.User;
-import java.biciu.Enums.BikeColor;
-import java.biciu.Enums.BikeType;
-
+import main.java.biciU.Entities.Bicycle;
+import main.java.biciU.Entities.User;
+import main.java.biciU.Enums.BikeColor;
+import main.java.biciU.Enums.BikeType;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -46,7 +45,7 @@ public class EntitiesServices {
             for(int j=0; j<colors.length;j++){
                 for(int k=0;i<10;k++){
                     String BICthis  = BIC_Creator(i);
-                    Bicycle oneBike = new Bicycle(i,colors[j], BICthis,type);
+                    Bicycle oneBike = new Bicycle(i,colors[j],BICthis,type);
                     bikeStock.put(BICthis, oneBike);
                 }
             }
