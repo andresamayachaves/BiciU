@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BiciU.iml" filepath="$PROJECT_DIR$/BiciU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biciU.iml" filepath="$PROJECT_DIR$/biciU.iml" />
     </modules>
   </component>
 </project>
