@@ -46,7 +46,7 @@ public class ConsoleMenu {
         return new Scanner(System.in).nextLine();
     }
 
-    public static boolean existsInDB(String numPart) {    //todo 2nd argument --DB
+    public static boolean existsInDB(String code) {    //todo 2nd argument --DB
         //  todo existsInDB()
         return false;
     }

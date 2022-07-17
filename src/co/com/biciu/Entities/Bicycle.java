@@ -8,7 +8,6 @@ public class Bicycle {
     private int BIC_num; // BIC numeric part
     private BikeColor color; //enum
     private String BIC; // Bicycle Identifier Code
-
     private BikeType type;
 
     //Constructor
@@ -18,7 +17,6 @@ public class Bicycle {
         this.BIC = BIC;
         this.type = type;
     }
-
 
     // Getters
     public int getBIC_num () {

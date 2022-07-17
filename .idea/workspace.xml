@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76d190a-b2f3-484c-a80f-b6e06e633ad6" name="Changes" comment="Some classes created with some attributes">
+      <change afterPath="$PROJECT_DIR$/src/co/com/biciu/Services/EntitiesServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/BiciU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/Enums/UserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/Utils/ConsoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/BiciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/BiciU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" afterDir="false" />
     </list>
@@ -31,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2C0css65JST6U4eEOS2DDZAWRwj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "D:/Sistema/PROGRAMAS/Lang Apache Commons/commons-lang3-3.0.jar",
+    "last_opened_file_path": "D:/ANDRÉS/SOFKA U/TRAINING LEAGUE/Week 3/BiciU",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -75,7 +86,7 @@
       <module name="BiciU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.com.biciu.*" />
+          <option name="PATTERN" value="co.com.biciu.Entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

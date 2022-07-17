@@ -5,7 +5,5 @@ public enum BikeColor {
     BLACK,
     YELLOW,
     WHITE,
-    RED,
-    GREEN,
-    ORANGE
+    RED
 }

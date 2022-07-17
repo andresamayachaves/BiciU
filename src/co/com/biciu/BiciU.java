@@ -1,5 +1,6 @@
 package co.com.biciu;
 
+import co.com.biciu.Services.EntitiesServices;
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.math.NumberUtils;
 import co.com.biciu.Utils.ConsoleMenu;
@@ -10,6 +11,7 @@ public class BiciU {
 
     // main method
     public static void main(String[] args) {
+        EntitiesServices.createDefaultBikeStock();
         int selectedOption = Integer.parseInt(
                 ConsoleMenu.renderAndVerify(
                         (option) -> NumberUtils.isNumber(option) && Range.between(1, 6).contains(Integer.parseInt(option)),
