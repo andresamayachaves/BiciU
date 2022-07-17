@@ -1,4 +1,4 @@
-package Utils;
+package co.com.biciu.Utils;
 
 
 import java.time.LocalDate;
@@ -44,6 +44,23 @@ public class ConsoleMenu {
 
     private static String readLineFromConsole() {
         return new Scanner(System.in).nextLine();
+    }
+
+    public static boolean existsInDB(String numPart) {    //todo 2nd argument --DB
+        //  todo existsInDB()
+        return false;
+    }
+
+    public static String uniqueID(char typeShort) {
+        boolean idExists = false;
+        String idProv = "";
+        while (!idExists){
+            String numPart1 = Double.toString(Math.floor(Math.random()*99999));
+            String numPart2 = Double.toString(Math.floor(Math.random()*99999));
+            idProv =  typeShort+"-"+numPart1+numPart2;
+           idExists = existsInDB(idProv);    //todo 2nd arg
+        }
+        return  idProv;
     }
 
     /*

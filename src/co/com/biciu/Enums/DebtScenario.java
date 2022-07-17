@@ -1,4 +1,4 @@
-package Enums;
+package co.com.biciu.Enums;
 
 public enum DebtScenario {
     SCENARIO_1,  // Out of time to return

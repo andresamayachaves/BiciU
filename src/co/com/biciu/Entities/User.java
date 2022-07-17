@@ -1,4 +1,4 @@
-package Classes.Entities;
+package co.com.biciu.Entities;
 
 public class User {
     String UserType = new String();
@@ -7,7 +7,7 @@ public class User {
     int age = 0;
     double debt = 0.0;
 
-    public User(String userType, int DNI, String name, int age, double debt) {
+    public User(String userType, int ID, String name, int age, double debt) {
         UserType = userType;
         this.DNI = DNI;
         this.name = name;

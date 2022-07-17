@@ -1,6 +1,6 @@
-package Classes.Entities;
+package co.com.biciu.Entities;
 
-import Enums.Status;
+import co.com.biciu.Enums.Status;
 import java.sql.Date;
 
 public class Ticket {

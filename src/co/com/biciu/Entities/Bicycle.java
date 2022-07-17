@@ -1,7 +1,7 @@
-package Classes.Entities;
+package co.com.biciu.Entities;
 
-import Enums.BikeColor;
-import Enums.BikeType;
+import co.com.biciu.Enums.BikeColor;
+import co.com.biciu.Enums.BikeType;
 
 public class Bicycle {
     // Attributes

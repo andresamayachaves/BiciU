@@ -1,4 +1,4 @@
-package Enums;
+package co.com.biciu.Enums;
 
 public enum BikeColor {
     BLUE,
