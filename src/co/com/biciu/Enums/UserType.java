@@ -1,6 +1,6 @@
 package co.com.biciu.Enums;
 
 public enum UserType {
-    STUDENT,
-    PROFESSOR
+    S, //STUDENT
+    P, //PROFESSOR
 }

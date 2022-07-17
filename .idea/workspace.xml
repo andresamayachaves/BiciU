@@ -3,18 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b76d190a-b2f3-484c-a80f-b6e06e633ad6" name="Changes" comment="Some classes created with some attributes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/BiciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/BiciU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Entities/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/BikeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/BikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/DebtScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/DebtScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +52,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.com.biciu.Entities" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ANDRÉS\SOFKA U\TRAINING LEAGUE\Week 3\BiciU\src\Classes" />
     </key>

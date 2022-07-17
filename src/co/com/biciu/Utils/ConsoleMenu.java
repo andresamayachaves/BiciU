@@ -42,7 +42,7 @@ public class ConsoleMenu {
         return LocalDate.parse(stringifiedDate);
     }
 
-    private static String readLineFromConsole() {
+    public static String readLineFromConsole() {
         return new Scanner(System.in).nextLine();
     }
 
@@ -50,19 +50,6 @@ public class ConsoleMenu {
         //  todo existsInDB()
         return false;
     }
-
-    public static String uniqueID(char typeShort) {
-        boolean idExists = false;
-        String idProv = "";
-        while (!idExists){
-            String numPart1 = Double.toString(Math.floor(Math.random()*99999));
-            String numPart2 = Double.toString(Math.floor(Math.random()*99999));
-            idProv =  typeShort+"-"+numPart1+numPart2;
-           idExists = existsInDB(idProv);    //todo 2nd arg
-        }
-        return  idProv;
-    }
-
     /*
     public static <T> void printPrettifiedObject(T object) {
         System.out.println("----------------------------------");
