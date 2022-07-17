@@ -1,9 +1,9 @@
-package java;
+package java.biciu;
 
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.math.NumberUtils;
 
-import java.biciu.MainServices;
+import java.biciu.Services.MainServices;
 import java.biciu.Services.EntitiesServices;
 import java.biciu.Utils.ConsoleMenu;
 

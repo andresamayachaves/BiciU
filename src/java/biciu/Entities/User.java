@@ -25,6 +25,13 @@ public class User {
         this.debt = debt;
     }
 
+    public void sumDebt(double addDebt) {
+        this.debt = this.debt + addDebt;
+    }
+
+    public void reduceDebt(double reduceDebt) {
+        this.debt = this.debt - reduceDebt;
+    }
     public void printUserInfo(){
         System.out.println("ID: "+this.ID);
         System.out.println("Name: "+this.name);

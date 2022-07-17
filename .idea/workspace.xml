@@ -8,19 +8,19 @@
       <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/BiciU.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/Enums/UserType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BiciU/co/com/biciu/Utils/ConsoleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/BiciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/BiciU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Entities/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Entities/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Enums/BikeColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/BikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Enums/BikeType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/DebtScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Enums/DebtScenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Enums/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Enums/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/com/biciu/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/MainServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Services/EntitiesServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Services/EntitiesServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Utils/ConsoleMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/com/biciu/Utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/BiciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/BiciU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/biciu/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Entities/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/biciu/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/biciu/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/biciu/Services/MainServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +79,7 @@
       <recent name="Classes.Entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java.biciu.BiciU">
-    <configuration name="BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiciU" />
-      <module name="BiciU" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="java.biciu.BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java.biciu.BiciU" />
       <module name="BiciU" />
@@ -100,10 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java.biciu.BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.biciu.BiciU" />
+      <module name="BiciU" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.java.biciu.BiciU" />
-        <item itemvalue="Application.BiciU" />
+        <item itemvalue="Application.java.biciu.BiciU" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +160,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.SecurityException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BiciU$java_biciu_BiciU.ic" NAME="java.biciu.BiciU Coverage Results" MODIFIED="1658058966479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

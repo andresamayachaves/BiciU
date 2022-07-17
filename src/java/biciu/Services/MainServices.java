@@ -1,4 +1,4 @@
-package java.biciu;
+package java.biciu.Services;
 
 import org.apache.commons.lang3.Range;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -8,7 +8,6 @@ import java.biciu.Entities.Ticket;
 import java.biciu.Entities.User;
 import java.biciu.Enums.BikeType;
 import java.biciu.Enums.UserType;
-import java.biciu.Services.EntitiesServices;
 import java.biciu.Utils.ConsoleMenu;
 import java.util.List;
 import java.util.Locale;
@@ -59,7 +58,7 @@ public class MainServices {
     public static void borrowBicycle() {
         String  enteredUserId = ConsoleMenu.renderAndVerify(
                 (answer) -> NumberUtils.isNumber(answer),"Enter user ID: ");
-        User userBorrow = EntitiesServices.findUserByID(enteredUserId).get();
+        User userBorrow = Entitieservices.findUserByID(enteredUserId).get();
         if(!userBorrow.userHasDebt()){
                 BikeType enteredType = chooseTypeBike();
                 Bicycle chosenBike = EntitiesServices.getRandomBikeFromStock(enteredType);
@@ -70,9 +69,6 @@ public class MainServices {
             System.out.println("The user has a ticket with debt. Please cancel it and try again.");
         }
 
-
-
-        //todo
     }
 
 
@@ -93,6 +89,8 @@ public class MainServices {
 
     //----------------------------------- returnBicycle()
     public static void returnBicycle() {
+        String  enteredTicketID = ConsoleMenu.renderAndRead("Enter ticket ID: ");
+        Ticket.setUpdates();
         //todo
     }
 
