@@ -1,7 +1,0 @@
-package main.biciU.Enums;
-
-public enum Status {
-    OK,
-    PENDING,
-    ACTIVE
-}

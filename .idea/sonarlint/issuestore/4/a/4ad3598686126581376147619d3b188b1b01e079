@@ -1,0 +1,16 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èª½¯
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÌÛøÿÿÿÿ
+b	java:S116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ŞÒï
+k	java:S116"VRename this field "UserTickets" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ûŠ
+@
+java:S1197"*Move the array designators [] to the type.(¾ûŠ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(œËÈ 
+M	java:S106)"9Replace this use of System.out or System.err by a logger.(‚¾Ø/
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ÔËÂ¦
+G
+java:S1068",Remove this unused "userType" private field.(‚ØÇÌüÿÿÿÿ
+E
+java:S1068"/Remove this unused "UserTickets" private field.(¾ûŠ
+@
+java:S1068"+Remove this unused "blocked" private field.(ãŒ¥g

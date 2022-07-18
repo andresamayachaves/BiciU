@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b76d190a-b2f3-484c-a80f-b6e06e633ad6" name="Changes" comment="Some classes created with some attributes">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c99c57f730eeb5528efdf32804b6e81f15bbcca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2589031f3e1919229f60971ab60f75de1e9f54f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ad3598686126581376147619d3b188b1b01e079" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bea47d037dc132dd6e29411be7903a396f66f82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b27a0865d78de053d1eabf8fca62d8b4b534e13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2253c17b1fa614c3d6f7c56b5aebdd25d957608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30f71a4b8b01b391d04315b8b1d495bd4d6410d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/BiciU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Entities/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Entities/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Enums/BikeColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Enums/BikeType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Enums/DebtScenario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Enums/Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Enums/UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Services/EntitiesServices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Services/MainServices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Utils/ConsoleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciU/java/biciu/Utils/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Entities/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Entities/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Entities/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Enums/BikeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Enums/BikeColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Enums/BikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Enums/BikeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Enums/DebtScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Enums/DebtScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Enums/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Enums/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Services/EntitiesServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Services/EntitiesServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Services/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Services/MainServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Utils/ConsoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/Utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/Utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/biciU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/biciU.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/biciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/biciU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biciU/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/biciU/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiciU/.idea/sonarlint/issuestore/3/0/30f71a4b8b01b391d04315b8b1d495bd4d6410d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiciU/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/BiciU/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiciU/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiciU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BiciU/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biciU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/biciU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Entities/Bicycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Entities/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Enums/BikeColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Enums/BikeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Enums/DebtScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Enums/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Enums/UserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Services/EntitiesServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Services/MainServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Utils/ConsoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/Utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/biciU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/biciU/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BiciU/main/java/biciU/biciU.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Entities/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Entities/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Entities/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Enums/BikeColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Enums/BikeColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Enums/BikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Enums/BikeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Enums/DebtScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Enums/DebtScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Enums/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Services/EntitiesServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Services/EntitiesServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Services/MainServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Services/MainServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Utils/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Utils/ConsoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/Utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/Utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/biciU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/biciU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/biciU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biciU/biciU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/biciU/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +96,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "D:/ANDRÉS/SOFKA U/TRAINING LEAGUE/Week 3/BiciU/src/java",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "D:/ANDRÉS/SOFKA U/TRAINING LEAGUE/Week 3/BiciU",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,6 +111,7 @@
       <recent name="D:\ANDRÉS\SOFKA U\TRAINING LEAGUE\Week 3\BiciU\src\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ANDRÉS\SOFKA U\TRAINING LEAGUE\Week 3\BiciU\src\main\java" />
       <recent name="D:\ANDRÉS\SOFKA U\TRAINING LEAGUE\Week 3\BiciU\src\Classes" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -94,7 +119,7 @@
       <recent name="Classes.Entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.biciU">
+  <component name="RunManager" selected="Application.biciU.biciU">
     <configuration name="biciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.biciU.biciU" />
       <module name="biciU" />
@@ -108,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="biciU.java.biciU.BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="biciU.java.biciU.BiciU" />
+    <configuration name="biciU.biciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="biciU.biciU" />
       <module name="biciU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="biciU.java.biciU.*" />
+          <option name="PATTERN" value="biciU.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java.biciu.BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.biciu.BiciU" />
-      <module name="biciU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.biciu.Entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main.biciU.BiciU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.biciU.BiciU" />
       <module name="biciU" />
@@ -173,26 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="biciU" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="biciU" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.biciU.biciU" />
         <item itemvalue="Application.biciU" />
         <item itemvalue="Application.biciU.java.biciU.biciU" />
         <item itemvalue="Application.java.biciU.BiciU" />
         <item itemvalue="Application.main.biciU.BiciU" />
-        <item itemvalue="Application.biciU.java.biciU.BiciU" />
       </list>
     </recent_temporary>
   </component>
